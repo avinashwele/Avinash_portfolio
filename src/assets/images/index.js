@@ -1,6 +1,6 @@
 
-import logo from './logo.svg'
+import aw from './aw.svg'
 
 export {
-    logo
+    aw
 }

@@ -26,7 +26,7 @@ const Home = () => {
         </p>
       </div>
       </div>
-      {/* <div className='py-10 flex flex-col'>
+      <div className='py-10 flex flex-col'>
         <h3 className='subhead-text'>My Skills</h3>
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) =>(
@@ -39,7 +39,7 @@ const Home = () => {
             </div>
           ))}
         </div>
-      </div> */}
+      </div>
 
       {/* <div className='py-16 '>
         <h3 className='subhead-text'></h3>
