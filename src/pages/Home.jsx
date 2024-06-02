@@ -22,9 +22,7 @@ const Home = () => {
       <div>
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-        "Dedicated software engineer with a proven track record of developing high-quality,
-         scalable solutions while consistently meeting project deadlines and exceeding 
-         client expectations."
+        "Enthusiastic and motivated Java stack developer with a solid understanding of Java programming fundamentals. Experienced in building basic applications using Java and Spring Framework. Strong problem-solving skills and a passion for learning new technologies. Seeking an opportunity to gain hands-on experience and further develop skills in software development."
         </p>
       </div>
       </div>
