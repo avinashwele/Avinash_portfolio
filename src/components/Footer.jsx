@@ -13,7 +13,7 @@ const Footer = () => {
       </div>
 
     <div class="container mx-auto flex justify-center items-center">
-        <p class="text-center">Copyright &copy; 2024 Avinash Wele. All rights reserved.</p>
+        <p class="text-center">avinashwele@gmail.com</p>
     </div>
 </footer>
 

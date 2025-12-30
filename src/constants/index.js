@@ -42,15 +42,10 @@ import {
 
 export const skills = [
     // {
-    //     imageUrl: c,
-    //     name: "c",
+    //     imageUrl: cpp,
+    //     name: "cpp",
     //     type: "Programming",
     // },
-    {
-        imageUrl: cpp,
-        name: "cpp",
-        type: "Programming",
-    },
     {
         imageUrl: java,
         name: "java",
@@ -62,16 +57,6 @@ export const skills = [
     //     type: "Programming",
     // },
     {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
         imageUrl: javascript,
         name: "JavaScript",
         type: "Frontend",
@@ -80,16 +65,6 @@ export const skills = [
         imageUrl: react,
         name: "React",
         type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
     },
 
     {
@@ -102,74 +77,26 @@ export const skills = [
         name: "Mysql",
         type: "Database",
     },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    // {
-    //     imageUrl: tailwindcss,
-    //     name: "Tailwind CSS",
-    //     type: "Frontend",
-    // }
 ];
 export const tools = [
-    {
-        imageUrl: vscode,
-        name: "vscode",
-        type: "Tools",
-    },
+    
     {
         imageUrl: git,
         name: "Git",
         type: "Version Control",
     },
-    {
-        imageUrl: eclipse,
-        name: "eclipse",
-        type: "Tools",
-    },
-    {
-        imageUrl: sublime,
-        name: "sublime",
-        type: "Tools",
-    },
+    
     {
         imageUrl: postman,
         name: "Postman",
         type: "Tools",
     },
-    {
-        imageUrl: spring,
-        name: "Spring",
-        type: "Tools",
-    },
+    
     {
         imageUrl: springboot,
         name: "springboot",
         type: "Tools",
     },
-    {
-        imageUrl: hibernate,
-        name: "hibernate",
-        type: "Tools",
-    },
-    {
-        imageUrl: intellij,
-        name: "Intellij",
-        type: "Tools",
-    },
-    {
-        imageUrl: maven,
-        name: "maven",
-        type: "Tools",
-    },
-    
-    {
-        imageUrl: jdbc,
-        name: "maven",
-        type: "Tools",
-    }
     
 ];
 
@@ -238,11 +165,6 @@ export const socialLinks = [
         name: 'Linkedin',
         iconUrl: linkedin,
         link: 'https://www.linkedin.com/in/avinashwele',
-    },
-    {
-        name: 'leetcode',
-        iconUrl: leetcode,
-        link: 'https://leetcode.com/u/avinashwele/',
     }
 
 
@@ -255,6 +177,8 @@ export const projects = [
         name: 'Hospital Management System',
         description: 'Technology: Spring Framework, HTML, CSS, Bootstrap, Java, JSP, Servlet, Maven, MySQL, Apache Tomcat.',
         link: 'https://github.com/avinashwele/Hospital_M_System',
+        website: "https://studigma.com",
+        github: "https://github.com/yourname/studigma"
     },
     {
         iconUrl: jobportal,
@@ -262,6 +186,8 @@ export const projects = [
         name: 'Job Portal',
         description: 'Technology: Spring Framework, JS, React, Java, JSP, Servlet, Maven, MongoDB, Sprint Tool Suite,',
         link: 'https://github.com/avinashwele/JobPortal',
+        website: "https://studigma.com",
+        github: "https://github.com/yourname/studigma"  
     },
     {
         iconUrl: portfolio,
@@ -269,5 +195,7 @@ export const projects = [
         name: 'Portfolio Website',
         description: 'Technology: React, Nodejs, Tailwind CSS, Vite, Emailjs, VsCode',
         link: 'https://github.com/avinashwele/Avinash_portfolio',
+        website: "https://studigma.com",
+        github: "https://github.com/yourname/studigma"
     },
 ];

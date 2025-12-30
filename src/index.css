@@ -7,13 +7,15 @@
 :root {
   --blue-rgb: 237 245 255;
   --green-rgb: 125 161 35;
+  --purple-rgb: 221 160 221;
+
 }
 
 body {
   font-family: "Work Sans", sans-serif;
 }
 
-body:has(.card[data-color="blue"]:hover) {
+body:has(.card[data-color="purple"]:hover) {
   background-color: rgb(var(--blue-rgb) / 25%);
 }
 
@@ -35,7 +37,7 @@ body:has(.card[data-color="green"]:hover) {
   }
 
   .blue-gradient_text {
-    @apply bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-[#471396] to-[#B13BFF] bg-clip-text text-transparent;
   }
   .green-gradient_text {
     @apply bg-gradient-to-r from-[#92ff88] to-[#0072ff] bg-clip-text text-transparent;
@@ -49,7 +51,7 @@ body:has(.card[data-color="green"]:hover) {
   }
 
   .btn {
-    @apply text-white bg-gradient-to-r from-[#00c6ff] to-[#0072ff] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center;
+    @apply text-white bg-gradient-to-r from-[#471396] to-[#B13BFF] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center;
   }
   .btnR {
     @apply  text-white bg-gradient-to-r from-[#00c6ff] to-[#0072ff] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center;
