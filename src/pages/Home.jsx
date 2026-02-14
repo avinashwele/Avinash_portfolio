@@ -26,9 +26,11 @@ const Home = () => {
       </h1>
 
       <p className="mt-4 text-slate-500 max-w-3xl">
-        Enthusiastic and motivated Java stack developer with a strong foundation
-        in Java and Spring Framework. Passionate about building scalable
-        applications and continuously learning new technologies.
+        Software Engineer experienced in building full-stack web and mobile
+        applications using Java, Spring Boot, Next.js, and Flutter. Designed
+        secure RESTful APIs with JWT authentication and integrated PostgreSQL
+        and AWS S3 for scalable data and file management. Strong foundation in
+        software design, database architecture, and problem-solving.
       </p>
 
       {/* PROJECTS */}
