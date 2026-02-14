@@ -36,6 +36,10 @@ const Projects = () => {
               </h4>
 
               <p className='mt-2 text-slate-500 '>
+                {project.technology}
+              </p>
+
+              <p className='mt-2 text-slate-500 '>
                 {project.description}
               </p>
 

@@ -174,8 +174,9 @@ export const projects = [
     {
         iconUrl: hospital,
         theme: 'btn-back-red',
-        name: 'Hospital Management System',
-        description: 'Technology: Spring Framework, HTML, CSS, Bootstrap, Java, JSP, Servlet, Maven, MySQL, Apache Tomcat.',
+        name: 'Rail Alert – Tatkal and advance booking notification system.',
+        technology:'Spring Boot, PostgreSQL, Next.js, Flutter',
+        description: 'Architected a smart railway booking alert system that notifies users when Tatkal and Advance Reservation windows open using automated travel date calculations. Built scheduled backend services with JWT-based authentication and user-specific alert configurations via RESTful APIs. Designed a normalized PostgreSQL schema and integrated Flutter mobile and Next.js web dashboards with a scalable Spring Boot backend.',
         link: 'https://github.com/avinashwele/Hospital_M_System',
         website: "https://studigma.com",
         github: "https://github.com/yourname/studigma"
@@ -183,19 +184,11 @@ export const projects = [
     {
         iconUrl: jobportal,
         theme: 'btn-back-blue',
-        name: 'Job Portal',
-        description: 'Technology: Spring Framework, JS, React, Java, JSP, Servlet, Maven, MongoDB, Sprint Tool Suite,',
+        name: 'Studigma – Study Material Sharing Platform',
+        technology:'Spring Boot, PostgreSQL, AWS S3, Flutter',
+        description: 'Built a scalable MVP study material sharing platform allowing students to upload and download PDF and image-based resources. Developed secure RESTful APIs using Spring Boot with JWT-based authentication, AWS S3 integration for file storage, and PostgreSQL for metadata management. Designed a normalized relational schema with validation, download tracking, and future-ready admin moderation support.',
         link: 'https://github.com/avinashwele/JobPortal',
         website: "https://studigma.com",
         github: "https://github.com/yourname/studigma"  
-    },
-    {
-        iconUrl: portfolio,
-        theme: 'btn-back-green',
-        name: 'Portfolio Website',
-        description: 'Technology: React, Nodejs, Tailwind CSS, Vite, Emailjs, VsCode',
-        link: 'https://github.com/avinashwele/Avinash_portfolio',
-        website: "https://studigma.com",
-        github: "https://github.com/yourname/studigma"
     },
 ];

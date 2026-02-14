@@ -82,6 +82,9 @@ const Home = () => {
               {/* RIGHT */}
               <div className="md:w-[80%] w-full">
                 <h4 className="text-2xl font-semibold">{project.name}</h4>
+                <p className="mt-2 text-xl text-slate-600 leading-relaxed">
+                  {project.technology}
+                </p>
                 <p className="mt-2 text-slate-600 leading-relaxed">
                   {project.description}
                 </p>
